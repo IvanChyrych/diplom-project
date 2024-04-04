@@ -1,0 +1,164 @@
+.pricing {
+    padding-bottom: 110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #F5F5F5;
+}
+
+
+.pricing-container {
+    max-width: 1170px;
+    margin: auto;
+    /* background-color: #F5F5F5; */
+
+}
+
+.pricing-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pricing-cart__title {
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pricing-cart__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.pricing-cart__img img {
+    object-fit: none;
+    object-position: center;
+    height: 90px;
+    width: 90px;
+    border: 1px solid coral;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-cart__text {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pricing-title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 82px;
+}
+
+.pricing-line {
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 40px auto;
+}
+
+.pricing-discription {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 59px;
+    color: #86878B;
+}
+
+.pricing-wrap__item {
+    width: 340px;
+    margin: 0 15px;
+}
+
+
+.pricing-wrap__item-title {
+    line-height: 60px;
+    text-align: center;
+    background-color: #333333;
+    color: #F5F5F5;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2px;
+
+}
+
+.pricing-wrap__item-cost {
+    line-height: 100px;
+    text-align: center;
+    background-color: #333333;
+    color: #F5F5F5;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.pricing-wrap__item-discription {
+    line-height: 50px;
+    text-align: center;
+    background-color: #333333;
+    color: #FFFFFF80;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.pricing-wrap__item-benefit {
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: #FFFFFF;
+    color: #86878B;
+    margin-bottom: 2px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pricing-wrap__item-benefit:last-child{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+@media (max-width: 740px) {
+    .pricing-wrap {
+
+        justify-content: center;
+
+    }
+}
+

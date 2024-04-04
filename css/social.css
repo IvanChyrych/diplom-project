@@ -1,0 +1,179 @@
+.social {
+    background-color: #F8EFEF;
+    padding: 0 15px;
+}
+
+.social-container {
+    max-width: 1170px;
+
+    margin: auto;
+    padding: 18px 0;
+    /* display: flex; */
+
+}
+
+.social-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social-text {
+    /* max-width: 470px; */
+}
+
+.social-title {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.social-description {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+    color: #86878B;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.social-links i {
+    padding: 0 15px;
+    font-size: 30px;
+}
+
+
+
+
+.social-links__icons a {
+    color: #CCCCCC;
+}
+
+
+
+.fa-facebook-f:hover {
+    color: blue;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+
+.fa-facebook-f {
+
+    transition: 0.5s;
+
+}
+
+.fa-twitter {
+
+    transition: 0.5s;
+
+}
+
+.fa-linkedin {
+
+    transition: 0.5s;
+
+}
+
+.fa-pinterest {
+
+    transition: 0.5s;
+
+}
+
+.fa-github {
+
+    transition: 0.5s;
+
+}
+
+.fa-rss {
+
+    transition: 0.5s;
+
+}
+
+.fa-instagram {
+    transition: 0.5s;
+}
+
+.fa-twitter:hover {
+    color: aqua;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+.fa-linkedin:hover {
+    color: blue;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+.fa-pinterest:hover {
+    color: red;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+.fa-instagram:hover {
+    color: darkmagenta;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+.fa-pinterest:hover {
+    color: red;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+.fa-github:hover {
+    color: cornflowerblue;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+.fa-rss:hover {
+    color: darkcyan;
+
+    transform: rotate(360deg) scale(1.2);
+}
+
+.social-title h2 {
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.social-links__item {}
+
+.social-links__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 684px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+
+@media(max-width:740px) {
+    .social-links {
+        display: none;
+    }
+}

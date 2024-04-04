@@ -1,0 +1,103 @@
+.footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.footer-container {
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrap {
+    /* display: flex; */
+
+}
+
+.footer-links {}
+
+.footer-links i {
+    /* font-size: 20px; */
+    padding: 0 15px;
+}
+
+.fa-brands {}
+
+.fa-facebook-f {}
+
+.fa-twitter {}
+
+.fa-linkedin {}
+
+.fa-pinterest {}
+
+.fa-instagram {}
+
+.fa-github {}
+
+.fa-solid {}
+
+.fa-rss {}
+
+.footer-text {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    padding-top: 27px;
+}
+
+.footer-links a {
+    color: #CCCCCC;
+}
+
+
+
+
+
+
+.footer-links .fa-facebook-f:hover {
+    color: blue;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}
+.footer-links .fa-twitter:hover{
+    color: aqua;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}
+.footer-links .fa-linkedin:hover{
+    color: blue;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}
+.footer-links .fa-pinterest:hover{
+    color: red;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}
+.footer-links .fa-instagram:hover{
+    color: darkmagenta;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}
+.footer-links .fa-pinterest:hover{
+    color: red;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}
+.footer-links .fa-github:hover{
+    color: cornflowerblue;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}
+.footer-links .fa-rss:hover{
+    color: darkcyan;
+    transition: 0.5s;
+    transform: rotate(360deg) ;
+}

@@ -1,0 +1,99 @@
+.axure {
+
+    padding-bottom: 60px;
+    background-color: #F5F5F5;
+    background-image: url(../img/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* position: relative; */
+
+}
+
+.axure-container {
+    z-index: 3;
+    position: relative;
+}
+
+.axure-title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    z-index: 111;
+
+}
+
+.axure-line {
+    border: 1px solid #ffffff;
+    width: 170px;
+    margin: 40px auto;
+}
+
+.axure-discription {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 59px;
+    color: white;
+}
+
+.axure-button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    width: 370px;
+    height: 58px;
+    margin: auto;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.axure-button:hover {
+    background-color: #EC7979;
+    border: 1px solid #EC7979;
+    
+}
+
+
+.axure {
+    padding: 70px 0;
+    background-color: #F5F5F5;
+    background-image: url(../img/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+.axure::before {
+    content: '';
+    bottom: 100;
+
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
